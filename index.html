@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0078d4, #001829);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #0078d4;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #e1f0fe;
+            color: #0078d4;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .project-card {
+            border-left: 4px solid #0078d4;
+            background: #fafafa;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+        .project-card h3 {
+            margin-bottom: 0.3rem;
+            color: #222;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Susseth Sahian</h1>
+        <p>Estudiante de Ingeniería en Sistemas Computacionales</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Estudiante de ingeniería enfocado en el desarrollo de software, arquitectura de computadoras y soluciones en la nube. Me apasiona diseñar sistemas eficientes, explorar la programación lógica y automatizar procesos mediante hardware programable.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul class="skills-list">
+                <li>Java (POO)</li>
+                <li>Lenguaje Ensamblador</li>
+                <li>Estructuras de Datos</li>
+                <li>Sistemas Programables (Arduino)</li>
+                <li>Redes (Cisco IOS)</li>
+                <li>Cloud Computing (Microsoft Azure)</li>
+                <li>SQL / MySQL</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            
+            <div class="project-card">
+                <h3>Desarrollo de Compilador Nativo</h3>
+                <p>Diseño e implementación de un analizador sintáctico y semántico desarrollado en Java, utilizando tablas de símbolos y árboles de sintaxis abstracta (AST).</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Sistema de Automatización Residencial</h3>
+                <p>Prototipo de cochera automatizada controlado por microcontroladores Arduino, utilizando sensores de proximidad ultrasónicos y servomotores para el control de acceso.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Infraestructura de Redes WAN</h3>
+                <p>Configuración y enrutamiento de topologías de red en entornos Cisco, utilizando protocolos de enrutamiento dinámico como EIGRP y tablas de rutas estáticas.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Desplegado con éxito en Microsoft Azure Static Web Apps</p>
+    </footer>
+
+</body>
+</html>
